@@ -1,0 +1,9 @@
+# Ignorar todo por defecto
+*
+
+# EXCEPCIÓN → permitir carpeta Assets completa
+!Assets/
+!Assets/**
+
+# También permitir el archivo .gitignore (sino Git lo ignoraría también)
+!.gitignore
